@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = process.env.REACT_APP_API_URL || 'https://radit-software-backend-1.onrender.com/api/consultants';
+const API_URL = process.env.REACT_APP_API_URL || 'https://radit-software-h3dnf0e8ddhpcbdj.germanywestcentral-01.azurewebsites.net/api/consultants';
 
 // Get all consultants
 export const getConsultants = async () => {
